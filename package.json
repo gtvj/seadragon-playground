@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/http-server/bin/http-server"
+    "start": "node_modules/http-server/bin/http-server",
+    "cantaloupe": "cd cantaloupe-4.1.3 && java -Dcantaloupe.config=cantaloupe.properties -Xmx2g -jar cantaloupe-4.1.3.war"
   },
   "keywords": [],
   "author": "",
